@@ -1,0 +1,50 @@
+{
+  "name": "portfolio-v4",
+  "private": true,
+  "description": "Version 4 of my portfolio site",
+  "version": "1.0.0",
+  "author": "Rachel Opperman",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/movntains/portfolio-v4"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop -p 8001",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^2.32.8",
+    "gatsby-image": "^2.11.0",
+    "gatsby-plugin-react-helmet": "^3.10.0",
+    "gatsby-plugin-sass": "^3.2.0",
+    "gatsby-plugin-typescript": "^2.12.1",
+    "gatsby-source-sanity": "^6.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.32.8"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
+    "typescript": "^4.2.2"
+  }
+}
